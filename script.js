@@ -14,3 +14,13 @@ closeMark.addEventListener("click", () => {
     hamburger.classList.remove("hide")
     closeMark.classList.add("hide")
 });
+
+ const drey = (obj, theory) => {
+    return obj + theory;
+}
+
+function khal(obj) {
+    return 2 + 3;
+}
+
+console.log(drey(10, 2))
